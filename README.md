@@ -2,7 +2,7 @@
 
 ### Git pull/push
 
-Apartir do momento que fazemos algumas alterações nos nossos códigos, <span style="color: red;">Texto em vermelho</span> compara com no nosso repositório local e nos mostra o que foi alterado nele (arquivo e linhas), tendo tudo detalhado.
+Apartir do momento que fazemos algumas alterações nos nossos códigos, <article style="color: red;">Texto em vermelho</article> compara com no nosso repositório local e nos mostra o que foi alterado nele (arquivo e linhas), tendo tudo detalhado.
 
 ![Foto das mudanças](src/foto_mudancas_git.png)
 
