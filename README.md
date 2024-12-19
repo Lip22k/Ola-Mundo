@@ -6,7 +6,7 @@ Apartir do momento que fazemos algumas alterações nos nossos códigos, <font c
 [foto das mudanças](src/foto_mudancas_git.png)
 
 Após verificar o que foi alterado nos arquivos podemos dar o commit, ou seja, atribuir essas mudanças no repositório local. Damos um nome para esse commit e podemos adicionar uma descrição para ele detalhando melhor o commit.
-[foto do commit](src\foto_commit_area_git.png)
+[foto do commit](src/foto_commit_area_git.png)
 
 Depois de dar commit em todos os arquivos, devemos subir ele para o nosso repositório publico, clicando em `push `
 
