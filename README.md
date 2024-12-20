@@ -1,8 +1,8 @@
 # Repositorio de estudo!
 
-### Git pull/push
+### Git pull/push request
 
-Apartir do momento que fazemos algumas alterações nos nossos códigos, <b style="color: red;">Texto em vermelho</b> compara com no nosso repositório local e nos mostra o que foi alterado nele (arquivo e linhas), tendo tudo detalhado.
+Apartir do momento que fazemos algumas alterações nos nossos códigos, ***GIT DESKTOP*** compara com no nosso repositório local e nos mostra o que foi alterado nele (arquivo e linhas), tendo tudo detalhado.
 
 ![Foto das mudanças](src/foto_mudancas_git.png)
 
@@ -13,6 +13,8 @@ Após verificar o que foi alterado nos arquivos podemos dar o commit, ou seja, a
 Após "commitar" o seu códiigo, você precisa subir ele para o github, clique em _"`pull origin`"_ ou utilize o comando `CRTL+P`
 
 ![Foto do Pull](src/foto_pull_git.png)
+
+Fetch é a comparação entre repositorio web (github) e repositório local (git) e te da um resposta se precisa fazer um pull ou um push request entre os repositórios
 
 Depois de dar commit em todos os arquivos, devemos subir ele para o nosso repositório publico, clicando em `push `
 

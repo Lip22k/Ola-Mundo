@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.Menu{
+    display: flex;
+    height: 50px;
+    background-color: rgb(151, 44, 151);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Menu .Menu__list{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.Menu .Menu__list a, .Menu__login, .Menu .Menu__logo{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    padding: 2px 15px;
+    transition: all ease-in-out .3s;
+    text-transform: uppercase;
+}
+.Menu .Menu__list a{
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.Menu__list__components a:hover{
+    color: #000;
+    background-color: #fff;
+}
