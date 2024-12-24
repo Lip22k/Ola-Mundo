@@ -61,9 +61,37 @@
  );
  ```
 
+ Porem ficar colocando ***`Props.propriedade`*** deixa o código um pouco confuso e cheio. Podemos transformar esse obj no nome da propriedade, passando ela direto utilizando ***``***, em que, colocamos as propriedades dentro das chaves:
+
+ ```
+ function Person({name, urlImg, description}) {
+    return (
+        <div className="Card">
+            <h3 className="Card__name">{name}</h3>
+            <img className="Card__img" src={urlImg}/>
+            <p className="Card__description">{description}</p>
+        </div>
+    )
+}
+```
+
 ### CRIAR COMPONENTES PROPRIOS
 
  Para criar um componente podemos reutilizar a estrutura do app,js e alterar seus nome
+
+### REACT FRAGMENTS
+ 
+ É uma forma de criação de componentes que não depende de um elemento pai, utilizamos um placeholder, permitindo alocar diversos componetes filhos, ajuda na simplificação do código
+
+### HOOKS
+
+HOOK de estado:
+
+Para utilizar o hook de estados, precisamos de 2 "variaveis" (o valor que ira receber e o valor que ira setar)
+
+```
+const [name, setName] = useState("");
+```
 
 ### EXTRA:
  Metodologia BEM (BLOCK ELEMENT MODIFIER)
